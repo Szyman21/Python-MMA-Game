@@ -24,11 +24,11 @@ class Fighter:
 
 
 def create_new_fighter():
-    name = input("Podaj imie: ")
-    surname = input("Podaj nazwisko: ")
-    win_by_knock = int(input("Podaj szansę na nokaut: "))
-    win_by_sub = int(input("Podaj szansę na poddanie: "))
-    win_by_dec = int(input("Podaj szansę na decyzję: "))
+    name = input("Enter your name: ")
+    surname = input("Enter your surname: ")
+    win_by_knock = int(input("Give a knockout chance: "))
+    win_by_sub = int(input("Give a submission chance: "))
+    win_by_dec = int(input("Give a decision chance: "))
     fighterData = Fighter(name, surname, win_by_knock, win_by_sub, win_by_dec)
     return fighterData
 
